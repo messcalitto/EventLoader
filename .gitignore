@@ -1,0 +1,58 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# PHPUnit
+/phpunit.xml
+.phpunit.result.cache
+
+# PHP CS Fixer
+/.php-cs-fixer.cache
+/.php_cs.cache
+
+# PHPStan
+/phpstan.neon
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+/logs/
+*.log
+
+# Cache
+/cache/
+
+# Build files
+/build/
+
+# Temporary files
+/tmp/
+
+# Application specific
+/data/
+/config/parameters.yml
+
+# Test coverage reports
+/coverage/
+/clover.xml
